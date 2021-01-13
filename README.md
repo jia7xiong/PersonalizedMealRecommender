@@ -2,7 +2,7 @@
 
 # Personalized Meal Recommender
 
-This project generates an optimum 5-day meal plan for two people in the same household through Survey, Web Scrapping, Data Processing, Collaborative Filtering, and Mixed Integer Programming. Feel free following the [Usage](##Usage) to make it personalized.
+This project generates an optimum 5-day meal plan for two people in the same household through Survey, Web Scrapping, Data Processing, Collaborative Filtering, and Mixed Integer Programming. Feel free following the [Usage](#usage) to make it personalized.
 
 ## Background
 
@@ -10,11 +10,11 @@ A forethought of meal plan is very efficient and popular nowadays. To help with 
 
 Below the model is formulated in mathematical language.
 
-<img src="images/objective.png" width="200"/>
+<img src="images/objective.png" width="600"/>
 
 subject to
 
-<img src="images/constraints.png" width="200"/>
+<img src="images/constraints.png" width="450"/>
 
 Our project works well on three different scenarios, and details can be found [here](report.pdf). 
 
@@ -25,7 +25,7 @@ Determine values of parameters in the model
 - Output: RHS parameters
 - Procedure
 <p align="center">
-<img src="images/survey.png" width="200"/>
+<img src="images/survey.png" width="500"/>
 </p>
 
 ### Step2: Web Scraping
@@ -58,14 +58,10 @@ Model the program and solve to get the recommendation result
 
 ## Maintainers
 
-[@xiongjia000777](https://github.com/xiongjia000777)
+[@jia7xiong](https://github.com/jia7xiong)
 
 [@lionemilio95](https://github.com/lionemilio95)
 
 [@zhp006](https://github.com/zhp006)
 
 [@wh0404](https://github.com/wh0404)
-
-
-
-
